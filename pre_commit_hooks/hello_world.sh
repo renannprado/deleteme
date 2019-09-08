@@ -3,3 +3,5 @@
 env
 
 echo "hello world2"
+
+echo $PWD
