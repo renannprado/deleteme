@@ -1,0 +1,6 @@
+- id: commit-message-linter
+  name: commit-message-linter
+  entry: pre_commit_hooks/hello_world.sh
+  description: Linter for commit messages
+  language: script
+  verbose: true
