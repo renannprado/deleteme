@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-echo "hello world"
+env
+
+echo "hello world2"
