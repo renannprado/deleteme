@@ -1,9 +1,9 @@
 - id: commit-message-linter
   name: commit-message-linter
 #   entry: pre_commit_hooks/hello_world.sh
-  entry: gitlint
+  entry: gitlint -c pre_commit_hooks/.gitlint
   description: Linter for commit messages
   language: python
   verbose: true
-  additional_dependencies: ["gitlint@v0.12.0"]
+  additional_dependencies: ["gitlint==v0.12.0"]
 #   stages: "commit-msg"
