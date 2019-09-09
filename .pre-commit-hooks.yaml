@@ -3,7 +3,9 @@
 #   entry: pre_commit_hooks/hello_world.sh
 #   entry: gitlint --msg-filename
 #   entry: gitlint --help
-  entry: gitlint -c title-max-length.line-length=50 --msg-filename 
+#   entry: gitlint -c title-max-length.line-length=50 --msg-filename 
+  entry: gitlint --configuration pre_commit_hooks/.gitlint
+#   entry: gitlint -c title-max-length.line-length=50 --msg-filename 
 #   entry: gitlint --help
 #   entry: echo $PWD
   description: Linter for commit messages
