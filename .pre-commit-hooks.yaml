@@ -18,3 +18,8 @@
   entry: pre_commit_hooks/hello_world.sh
   description: Linter for commit messages
   language: script
+- id: my-gitlint
+  name: my gitlint
+  entry: my-gitlint --msg-filename
+  language: python
+  stages: [commit-msg]
