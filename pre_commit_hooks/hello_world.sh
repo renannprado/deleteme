@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-env
+# env
 
 echo "hello world2"
 

@@ -1,6 +1,5 @@
 - id: commit-message-linter
   name: commit-message-linter
-#   entry: pre_commit_hooks/hello_world.sh
 #   entry: gitlint --msg-filename
 #   entry: gitlint --help
 #   entry: gitlint -c title-max-length.line-length=50 --msg-filename 
@@ -9,9 +8,13 @@
 #   entry: gitlint --help
 #   entry: echo $PWD
   description: Linter for commit messages
-#   language: script
   language: python
   verbose: true
 #   pass_filenames: true
   additional_dependencies: ["gitlint==v0.12.0"]
 #   stages: "commit-msg"
+- id: hello-world
+  name: hello world
+  entry: pre_commit_hooks/hello_world.sh
+  description: Linter for commit messages
+  language: script
